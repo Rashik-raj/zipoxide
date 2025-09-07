@@ -1,10 +1,13 @@
 [package]
 name = "zipoxide"
 version = "0.1.0"
+authors = ["Rashikraj Shrestha <rashik123.rs@gmail.com>"]
 edition = "2024"
 
 [dependencies]
 memmap2 = "0.9.8"
 rayon = "1.11.0"
-tempfile = "3.21.0"
 zip = "5.0.0"
+
+[dev-dependencies]
+tempfile = "3.21.0"

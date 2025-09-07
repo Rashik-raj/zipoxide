@@ -4,6 +4,10 @@ version = "0.1.0"
 authors = ["Rashikraj Shrestha <rashik123.rs@gmail.com>"]
 edition = "2024"
 
+[profile.release]
+opt-level = 3 # Use the highest level of optimization
+lto = true # Consider enabling Link Time Optimization (LTO) for further optimization
+
 [dependencies]
 memmap2 = "0.9.8"
 rayon = "1.11.0"

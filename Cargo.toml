@@ -2,6 +2,8 @@
 name = "zipoxide"
 version = "0.1.0"
 authors = ["Rashikraj Shrestha <rashik123.rs@gmail.com>"]
+description = "A Rust-powered, blazing fast ZIP utility."
+license = "MIT"
 edition = "2024"
 
 [profile.release]
